@@ -9,7 +9,7 @@ Author URI: http://ninosego.de/
 
 add_action( 'login_head', 'custom_login_header' );
 function custom_login_header() {
-	echo '<link rel="stylesheet" href="' . get_bloginfo('stylesheet_directory') . '/custom-login.css" type="text/css" />';
+	echo '<link rel="stylesheet" href="' . get_bloginfo('stylesheet_directory') . '/wp-custom-login.css" type="text/css" />';
 	get_header();
 }
 

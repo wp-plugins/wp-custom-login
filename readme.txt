@@ -4,13 +4,13 @@ Tags: custom login, login page, custom page, header and footer
  
 Requires at least: 3.2.1
 Tested up to: 3.3
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 
 Adding the header and footer to your login page.
 
 == Description ==
 
-Designed for users which want to include the header and footer to the login page. You can also change the design. Just create a custom-login.css in your theme directory.
+Designed for users which want to include the header and footer to the login page. You can also change the design. Just create a wp-custom-login.css in your theme directory.
 
 
 == Installation ==
@@ -42,6 +42,9 @@ Using the Wordpress Admin page for installing
 
 
 == Changelog ==
+
+= 1.1.0 =
+Because of conflicts with other plugins rename the custom-login.css to wp-custom-login.css
 
 = 1.0.0 =
 First edition
