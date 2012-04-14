@@ -3,7 +3,7 @@
 Plugin Name: WP Custom Login
 Description: With this plugin you add the header and footer to your login page
 Author: Ninos Ego
-Version: 1.0.0
+Version: 1.1.0
 Author URI: http://ninosego.de/
 */
 
