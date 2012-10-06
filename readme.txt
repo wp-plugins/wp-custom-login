@@ -1,10 +1,10 @@
 === WP Custom Login ===
 Contributors: Ninos Ego
-Tags: custom login, login page, custom page, header and footer
+Tags: login, custom login, login page, custom page, header, footer
  
 Requires at least: 3.2.1
-Tested up to: 3.4
-Stable tag: 1.2.0
+Tested up to: 3.5
+Stable tag: 1.3.0
 
 Adding the header and footer to your login page.
 
@@ -27,10 +27,10 @@ Downloading from Wordpress Website
 4. Activate the plugin through the 'Plugins' menu in WordPress
 5. Create a custom-login.css in your theme directory
 6. Use the wp-custom-login action hooks
-wp_custom_login_header_before
-wp_custom_login_header_after
-wp_custom_login_footer_before
-wp_custom_login_footer_after
+* wp_custom_login_header_before
+* wp_custom_login_header_after
+* wp_custom_login_footer_before
+* wp_custom_login_footer_after
 
 Using the Wordpress Admin page for installing
 
@@ -48,8 +48,14 @@ Using the Wordpress Admin page for installing
 
 == Changelog ==
 
+= 1.3.0 =
+This version is removing following files from the login head:
+wp-admin-css
+colors-fresh-css
+Maybe some themes need this files on login page, so you're welcome for feedback
+
 = 1.2.0 =
-Added 4 action hooks
+Added 4 action hooks:
 wp_custom_login_header_before
 wp_custom_login_header_after
 wp_custom_login_footer_before
