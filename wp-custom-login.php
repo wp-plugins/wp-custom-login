@@ -3,18 +3,21 @@
 Plugin Name: WP Custom Login
 Description: This plugin is adding the header and footer to the login page
 Author: Ninos Ego
-Version: 1.3.1
+Version: 1.3.2
 Author URI: http://ninosego.de/
 */
-
-if( wp_custom_login_is_login_page() )
-	wp_enqueue_script('jquery');
 
 add_action( 'login_head', 'wp_custom_login_head_javascript' );
 function wp_custom_login_head_javascript() {
 ?>
 	<script type="text/javascript">
-		$('#wp-admin-css, #colors-fresh-css').remove();
+		wp_custom_login_remove_element('wp-admin-css');
+		wp_custom_login_remove_element('colors-fresh-css');
+
+		function wp_custom_login_remove_element(id) {
+			var element = document.getElementById(id);
+			element.parentNode.removeChild(element);
+		}
 	</script>
 <?php
 }
