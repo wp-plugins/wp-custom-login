@@ -3,7 +3,7 @@ Contributors: Ninos Ego
 Tags: login, custom login, login page, custom page, header, footer
  
 Requires at least: 3.2.1
-Tested up to: 3.5
+Tested up to: 3.5.1
 Stable tag: 1.3.2
 
 Adding the header and footer to your login page.
