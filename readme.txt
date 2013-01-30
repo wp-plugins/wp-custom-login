@@ -4,7 +4,7 @@ Tags: login, custom login, login page, custom page, header, footer
  
 Requires at least: 3.2.1
 Tested up to: 3.5.1
-Stable tag: 1.3.2
+Stable tag: 1.4.0
 
 Adding the header and footer to your login page.
 
@@ -47,6 +47,9 @@ Using the Wordpress Admin page for installing
 
 
 == Changelog ==
+
+= 1.4.0 =
+Stylesheet is only loading when it exists
 
 = 1.3.2 =
 This version of the plugin is working without jQuery. Version 1.3.2 should be compatible with all themes
