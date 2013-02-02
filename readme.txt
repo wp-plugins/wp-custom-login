@@ -49,7 +49,7 @@ Using the Wordpress Admin page for installing
 == Changelog ==
 
 = 1.4.0 =
-Stylesheet is only loading when it exists
+Stylesheet is loaded only if it exists
 
 = 1.3.2 =
 This version of the plugin is working without jQuery. Version 1.3.2 should be compatible with all themes
