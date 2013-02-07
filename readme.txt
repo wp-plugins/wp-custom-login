@@ -39,6 +39,11 @@ Using the Wordpress Admin page for installing
 3. Select install for the plugin 'WP Custom Login' by Ninos Ego
 4. Activate the plugin through the 'Installing Plugin' page in WordPress
 5. Create a wp-custom-login.css in your theme directory
+6. Use the wp-custom-login action hooks
+* wp_custom_login_header_before
+* wp_custom_login_header_after
+* wp_custom_login_footer_before
+* wp_custom_login_footer_after
 
 
 == Screenshots ==
