@@ -53,6 +53,9 @@ Using the Wordpress Admin page for installing
 
 == Changelog ==
 
+= 1.4.5 =
+Compatible with Wordpress 3.9
+
 = 1.4.4 =
 Compatible with Wordpress 3.8
 
