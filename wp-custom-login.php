@@ -3,7 +3,7 @@
 Plugin Name: WP Custom Login
 Description: This plugin is adding the header and footer to the login page
 Author: Ninos Ego
-Version: 1.4.6
+Version: 1.4.7
 Author URI: http://ninosego.de/
 */
 
@@ -21,7 +21,8 @@ if( !isset($_REQUEST['interim-login']) )
 
 			function wp_custom_login_remove_element(id) {
 				var element = document.getElementById(id);
-				element.parentNode.removeChild(element);
+				if( typeof element !== 'undefined' && element.value == '' )
+					element.parentNode.removeChild(element);
 			}
 		</script>
 <?php
