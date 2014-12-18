@@ -53,7 +53,7 @@ Using the Wordpress Admin page for installing
 
 == Changelog ==
 
-= 1.4.5 =
+= 1.4.7 =
 Compatible with Wordpress 4.0
 Fixed: JavaScript error
 
